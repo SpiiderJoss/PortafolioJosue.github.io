@@ -3,7 +3,7 @@ document.getElementById('downloadCvBtn').addEventListener('click', function(even
   
     const link = document.createElement('a');
     link.href = 'CV_Montalván_Zavala_Josué.pdf';
-    link.download = 'CVJosueMontalvanZavala.pdf';
+    link.download = 'CV_JosueMontalvanZavala.pdf';
   
     document.body.appendChild(link);
     link.click();
